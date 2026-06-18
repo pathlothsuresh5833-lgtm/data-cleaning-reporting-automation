@@ -1,0 +1,11 @@
+-- Total Sales
+Total Sales =
+SUM('Sample_superstore'[Sales])
+
+-- Total Profit
+Total Profit =
+SUM('Sample_superstore'[Profit])
+
+-- Total Orders
+Total Orders =
+DISTINCTCOUNT('Sample_superstore'[Order ID])
